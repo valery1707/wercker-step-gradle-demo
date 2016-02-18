@@ -1,0 +1,10 @@
+# Use the JDK container from Docker Hub
+box: java:8-jdk
+
+# The steps that will be executed in the build pipeline
+build:
+  steps:
+    # Build the project
+    - valery1707/gradle:
+      name: build
+      tasks: clean build
