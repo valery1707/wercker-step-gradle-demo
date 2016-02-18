@@ -7,5 +7,5 @@ build:
     # Build the project
     - valery1707/gradle:
       name: build
-      version: 2.9
+      version: "2.9"
       tasks: clean build
