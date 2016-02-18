@@ -1,0 +1,12 @@
+repositories {
+	mavenCentral()
+}
+
+group 'name.valery1707.wercker.demo'
+version '0.0.1-SNAPSHOT'
+
+apply plugin: 'java'
+
+dependencies {
+	testCompile 'junit:junit:4.+'
+}
